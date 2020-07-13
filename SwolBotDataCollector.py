@@ -1,5 +1,8 @@
 import pytube as pt 
-from moviepy.editor import *
+from moviepy.video.io.VideoFileClip import VideoFileClip
+from moviepy.video.VideoClip import ImageClip
+from moviepy.video.compositing.CompositeVideoClip import CompositeVideoClip
+import pkg_resources.py2_warn
 
 videosLeftToDowload='y'
 while videosLeftToDowload=='y':
